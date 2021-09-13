@@ -2,8 +2,8 @@
 @media (prefers-color-scheme: light) {
   body {
     margin: 0;
-    background-color: rgb(12, 12, 12);
-    color: rgb(179, 179, 179);
+    background-color: #f1f1f1;
+    color: black;
   }
 
   * {
@@ -12,7 +12,7 @@
 
   .content {
     margin: 22% 300px 10px 300px;
-    background-color: rgb(44, 44, 44);
+    background-color: #bbb;
     padding: 10px;
     border-radius: 10px;
     text-align: center;
