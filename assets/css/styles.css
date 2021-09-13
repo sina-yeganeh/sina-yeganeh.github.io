@@ -2,25 +2,3 @@
   font-family: open-sans;
   src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
 }
-
-body {
-  margin: 0;
-  background-color: rgb(12, 12, 12);
-  color: rgb(179, 179, 179);
-}
-
-* {
-  font-family: open-sans;
-}
-
-.content {
-  margin: 22% 300px 10px 300px;
-  background-color: rgb(44, 44, 44);
-  padding: 10px;
-  border-radius: 10px;
-  text-align: center;
-}
-
-.title-bar {
-  text-align: center;
-}
