@@ -2,3 +2,39 @@
   font-family: open-sans;
   src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
 }
+
+@font-face {
+  font-family: vazir;
+  src: url("../fonts/vazir/Vazir.ttf");
+}
+
+body {
+  margin: 0;
+  background-color: rgb(27, 27, 27);
+  color: rgb(221, 221, 221);
+  direction: rtl;
+}
+
+* {
+  font-family: vazir;
+}
+
+/* Nav bar part */
+.nav-bar > ul {
+  display: flex;
+}
+
+.nav-bar-item {
+  text-decoration: none;
+  margin-right: 20px;
+  color: rgb(179, 179, 179);
+  transition: 0.5s;
+}
+
+.nav-bar-item:hover {
+  color: royalblue;
+}
+
+.nav-bar-item > li {
+  list-style-type: none;
+}
