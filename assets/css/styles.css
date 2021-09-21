@@ -4,22 +4,7 @@
 }
 
 @font-face {
-  font-family: vazir;
-  src: url("../fonts/vazir/Vazir.ttf");
-}
-
-@font-face {
-  font-family: mon;
-  src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
-}
-
-@font-face {
-  font-family: mon-super-bold;
-  src: url("../fonts/Montserrat/Montserrat-ExtraBold.ttf");
-}
-
-@font-face {
-  font-family: fa;
+  font-family: lsb;
   src: url("../fonts/league-spartan/LeagueSpartan-Bold.otf");
 }
 
@@ -28,16 +13,19 @@ body {
   padding: 0;
   color: rgb(14, 14, 14);
   direction: ltr;
-  font-family: open-sans;
+  font-family: lexend;
   font-size: 14px;
+  overflow-x: hidden;
+  font-weight: 500;
 }
 
 button, input {
   border-radius: 5px;
   border: none;
-  padding: 8px;
-  font-family: open-sans;
+  padding: 10px;
+  font-family: lexend;
   transition: .5s;
+  font-weight: 900;
 }
 
 button {
@@ -50,8 +38,9 @@ button:hover {
 
 /* Nav bar part */
 .nav-bar {
-  background-color: rgb(29, 29, 29);
-  font-family: consolas;
+  background-color: royalblue;
+  /* font-family: consolas; */
+  font-weight: 600;
 }
 
 .nav-bar-title {
@@ -68,12 +57,62 @@ button:hover {
   color: white;
   transition: 0.5s;
   padding: 10px 8px;
+  margin-top: 5px;
 }
 
 .nav-bar-item:hover {
-  color: rgb(255, 49, 49);
+  color: black;
 }
 
 .nav-bar-item > li {
   list-style-type: none;
+}
+
+/* Top */
+.top {
+  position: relative;
+  text-align: center;
+  margin-top: -15px;
+  /* margin-top: 200px; */
+}
+
+.top-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.top-text > h3 {
+  font-family: lsb;
+  font-size: 18px;
+}
+
+.top-text > p {
+  margin-top: -8px;
+  margin-bottom: 20px;
+}
+
+.github {
+  background-color: black;
+  color: white;
+  margin-right: 5px;
+}
+
+.github > img {
+  width: 20px;
+  height: 20px;
+  margin-bottom: -5px;
+}
+
+.discord {
+  background-color: blueviolet;
+  color: white;
+}
+
+.discord > img {
+  width: 20px;
+  height: 20px;
+  margin-bottom: -5px;
 }
