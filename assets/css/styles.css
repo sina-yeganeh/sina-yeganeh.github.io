@@ -8,6 +8,11 @@
   src: url("../fonts/league-spartan/LeagueSpartan-Bold.otf");
 }
 
+@font-face {
+  font-family: lexend;
+  src: url("../fonts/Lexend_Deca/static/LexendDeca-Regular.ttf");
+}
+
 body {
   margin: -20px;
   padding: 0;
@@ -40,7 +45,7 @@ button:hover {
 .nav-bar {
   background-color: royalblue;
   /* font-family: consolas; */
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .nav-bar-title {
