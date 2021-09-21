@@ -8,31 +8,70 @@
   src: url("../fonts/vazir/Vazir.ttf");
 }
 
-body {
-  margin: 0;
-  background-color: rgb(27, 27, 27);
-  color: rgb(221, 221, 221);
-  direction: rtl;
+@font-face {
+  font-family: mon;
+  src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
 }
 
-* {
-  font-family: vazir;
+@font-face {
+  font-family: mon-super-bold;
+  src: url("../fonts/Montserrat/Montserrat-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: fa;
+  src: url("../fonts/league-spartan/LeagueSpartan-Bold.otf");
+}
+
+body {
+  margin: -20px;
+  padding: 0;
+  color: rgb(14, 14, 14);
+  direction: ltr;
+  font-family: open-sans;
+  font-size: 14px;
+}
+
+button, input {
+  border-radius: 5px;
+  border: none;
+  padding: 8px;
+  font-family: open-sans;
+  transition: .5s;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
 }
 
 /* Nav bar part */
-.nav-bar > ul {
+.nav-bar {
+  background-color: rgb(29, 29, 29);
+  font-family: consolas;
+}
+
+.nav-bar-title {
+  right: 0;
+}
+
+.nav-bar-items-links {
   display: flex;
 }
 
 .nav-bar-item {
   text-decoration: none;
   margin-right: 20px;
-  color: rgb(179, 179, 179);
+  color: white;
   transition: 0.5s;
+  padding: 10px 8px;
 }
 
 .nav-bar-item:hover {
-  color: royalblue;
+  color: rgb(255, 49, 49);
 }
 
 .nav-bar-item > li {
