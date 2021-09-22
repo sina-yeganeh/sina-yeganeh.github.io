@@ -13,22 +13,68 @@
   src: url("../fonts/Lexend_Deca/static/LexendDeca-Regular.ttf");
 }
 
+@font-face {
+  font-family: lato;
+  src: url("../fonts/Lato/Lato-Regular.ttf");
+}
+
+@font-face {
+  font-family: lato;
+  src: url("../fonts/Lato/Lato-Regular.ttf");
+}
+
+@font-face {
+  font-family: lato-black;
+  src: url("../fonts/Lato/Lato-Black.ttf");
+}
+
+@font-face {
+  font-family: lato-bold;
+  src: url("../fonts/Lato/Lato-Bold.ttf");
+}
+
+@font-face {
+  font-family: bg;
+  src: url("../fonts/BG/BrandonGrotesque-Regular.ttf");
+}
+
+@font-face {
+  font-family: bg-bold;
+  src: url("../fonts/BG/BrandonGrotesque-Bold.ttf");
+}
+
+@font-face {
+  font-family: bg-light;
+  src: url("../fonts/BG/BrandonGrotesque-Light.ttf");
+}
+
 body {
-  margin: -20px;
+  margin: 0;
   padding: 0;
-  color: rgb(14, 14, 14);
+  color: white;
+  background-color: rgb(38,62,222);
   direction: ltr;
-  font-family: lexend;
+  font-family: lato;
   font-size: 14px;
   overflow-x: hidden;
   font-weight: 500;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+  transition: .2s;
+}
+
+img:hover {
+  opacity: 0.8;
 }
 
 button, input {
   border-radius: 5px;
   border: none;
   padding: 10px;
-  font-family: lexend;
+  font-family: bg;
   transition: .5s;
   font-weight: 900;
 }
@@ -41,83 +87,42 @@ button:hover {
   opacity: 0.8;
 }
 
-/* Nav bar part */
+/* The fucking nav bar */
 .nav-bar {
-  background-color: royalblue;
-  /* font-family: consolas; */
-  font-weight: 500;
+  padding: 5px 15px;
 }
 
 .nav-bar-title {
-  right: 0;
-}
-
-.nav-bar-items-links {
-  display: flex;
-}
-
-.nav-bar-item {
-  text-decoration: none;
-  margin-right: 20px;
+  font-family: bg-bold;
+  /* font-weight: 800; */
+  font-size: large;
   color: white;
-  transition: 0.5s;
-  padding: 10px 8px;
-  margin-top: 5px;
 }
 
-.nav-bar-item:hover {
-  color: black;
+.social-network {
+  direction: rtl;
 }
 
-.nav-bar-item > li {
+.social-network-item > li {
   list-style-type: none;
+  margin-top: 15px;
 }
 
-/* Top */
-.top {
-  position: relative;
+.text {
   text-align: center;
-  margin-top: -15px;
-  /* margin-top: 200px; */
+  padding: 20px 0;
 }
 
-.top-text {
+.text > p {
+  font-family: bg-bold;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.footer {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
-
-.top-text > h3 {
-  font-family: lsb;
-  font-size: 18px;
-}
-
-.top-text > p {
-  margin-top: -8px;
-  margin-bottom: 20px;
-}
-
-.github {
-  background-color: black;
-  color: white;
-  margin-right: 5px;
-}
-
-.github > img {
-  width: 20px;
-  height: 20px;
-  margin-bottom: -5px;
-}
-
-.discord {
-  background-color: blueviolet;
-  color: white;
-}
-
-.discord > img {
-  width: 20px;
-  height: 20px;
-  margin-bottom: -5px;
+  bottom: 10px;
+  right: 45%;
+  font-size: 17px;
+  font-family: bg-light;
 }
