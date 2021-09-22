@@ -1,39 +1,4 @@
 @font-face {
-  font-family: open-sans;
-  src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
-}
-
-@font-face {
-  font-family: lsb;
-  src: url("../fonts/league-spartan/LeagueSpartan-Bold.otf");
-}
-
-@font-face {
-  font-family: lexend;
-  src: url("../fonts/Lexend_Deca/static/LexendDeca-Regular.ttf");
-}
-
-@font-face {
-  font-family: lato;
-  src: url("../fonts/Lato/Lato-Regular.ttf");
-}
-
-@font-face {
-  font-family: lato;
-  src: url("../fonts/Lato/Lato-Regular.ttf");
-}
-
-@font-face {
-  font-family: lato-black;
-  src: url("../fonts/Lato/Lato-Black.ttf");
-}
-
-@font-face {
-  font-family: lato-bold;
-  src: url("../fonts/Lato/Lato-Bold.ttf");
-}
-
-@font-face {
   font-family: bg;
   src: url("../fonts/BG/BrandonGrotesque-Regular.ttf");
 }
