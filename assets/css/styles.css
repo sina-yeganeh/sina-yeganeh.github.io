@@ -110,3 +110,40 @@ nav > ul {
   background: #d9b310;
   color: white;
 }
+
+/* Content */
+.content {
+  margin: 20px 100px;
+  text-align: center;
+}
+
+.content-titles {
+  font-size: 35px;
+  color: #d9b310;
+}
+
+.works-cards {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.card {
+  width: 30%;
+  box-shadow: rgb(185, 185, 185) 2px 2px 10px;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+.card-titles {
+  color: #328cc1;
+  font-weight: 900;
+}
+
+.card-descs {
+  font-weight: 200;
+}
+
+.card > img {
+  width: 100%;
+}

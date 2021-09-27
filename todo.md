@@ -1,7 +1,3 @@
 - [x] Struct project
-- [ ] Design index page
-- [ ] Design about page
-- [ ] Write first essay (article)
 - [ ] Add dark button
 - [ ] Add "Star project on github" button
-- [ ] Design articles page
