@@ -77,6 +77,47 @@ nav > ul {
   color: #d9b310;
 }
 
+/* Socials */
+.socials {
+  position: fixed;
+  top: 13px;
+  left: 40px;
+}
+
+.github, .linkedin, .instagram {
+  padding: 10px 12px 8px 12px;
+  transition: .3s;
+  border-radius: 50%;
+}
+
+.github:hover, .linkedin:hover, .instagram:hover {
+  opacity: 0.8;
+}
+
+.github > img, .linkedin > img, .instagram > img {
+  width: 25px;
+  height: 25px;
+}
+
+.github {
+  background-color: black;
+  margin-left: 10px;
+}
+
+.linkedin {
+   background-color: rgb(34, 111, 255);
+   margin-left: 10px;
+}
+
+.instagram {
+  background: linear-gradient(
+    to right top,
+    rgb(206, 206, 0),
+    rgb(255, 69, 100),
+    rgb(170, 17, 170)
+  );
+}
+
 /* Top and start page */
 .top {
   width: 100%;
