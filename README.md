@@ -1,3 +1,3 @@
 <samp>
-  🔄 Blog Is On Progress 
+  🔄 Website Is On Progress 
 </samp>
