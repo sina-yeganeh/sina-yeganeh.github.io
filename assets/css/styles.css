@@ -18,7 +18,7 @@ body {
 
 button {
   border: none;
-  border-radius: 5px;
+  border-radius: 25px;
   font-family: cinema;
   padding: 15px 20px;
   cursor: pointer;
@@ -61,7 +61,7 @@ nav > ul {
   text-decoration: none;
   font-size: 18px;
   font-weight: 700;
-  border-radius: 5px;
+  border-radius: 10px;
   transition: .2s;
 }
 
@@ -134,9 +134,14 @@ nav > ul {
   padding: 220px 0 170px 0;
 }
 
+.center > h2 {
+  font-size: 25px;
+}
+
 .center > p {
   margin-top: -15px;
   margin-bottom: 30px;
+  color: #1d2731;
 }
 
 .more {
