@@ -226,7 +226,7 @@ nav > ul {
   backdrop-filter: blur( 10.5px );
   -webkit-backdrop-filter: blur( 10.5px );
   border-radius: 10px;
-  width: 450px;
+  width: 500px;
 }
 
 /* Footer */
