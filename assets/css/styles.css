@@ -25,6 +25,11 @@ button {
   font-size: 16px;
 }
 
+a {
+  text-decoration: none;
+  color: #d9b310;
+}
+
 /* Scroll bar  */
 ::-webkit-scrollbar {
   width: 8px;
@@ -192,4 +197,41 @@ nav > ul {
 
 .card > img {
   width: 100%;
+}
+
+/* About */
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sina {
+  width: 225px;
+  height: 225px;
+  border-radius: 50%;
+  border: #0b3c5d solid 2px;
+  box-shadow: #0b3c5d 2px 2px 10px;
+}
+
+.about-me {
+  position: relative;
+  margin-top: -50px;
+  font-size: 21px;
+  text-align: right;
+  padding: 10px;
+  background: rgba( 50, 140, 193, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 10.5px );
+  -webkit-backdrop-filter: blur( 10.5px );
+  border-radius: 10px;
+  width: 450px;
+}
+
+/* Footer */
+.footer {
+  background-color: #1d2731;
+  color: rgb(238, 238, 238);
+  padding: 8px 50px;
 }
