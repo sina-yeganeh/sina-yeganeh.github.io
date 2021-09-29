@@ -235,3 +235,25 @@ nav > ul {
   color: rgb(238, 238, 238);
   padding: 8px 50px;
 }
+
+/* Up button */
+.up-button {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  background-color: #d9b310;
+  border-radius: 50%;
+  padding: 10px 12px 8px 12px;
+  box-shadow: #1d2731 2px 2px 10px;
+  transition: .4s;
+}
+
+.up-button:hover {
+  /* opacity: 0.8; */
+  box-shadow: #1d2731 2px 5px 10px;
+}
+
+.up-button > img {
+  width: 30px;
+  height: 30px;
+}
