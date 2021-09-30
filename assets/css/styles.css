@@ -23,6 +23,7 @@ button {
   padding: 15px 20px;
   cursor: pointer;
   font-size: 16px;
+  outline: none;
 }
 
 a {
@@ -37,11 +38,11 @@ a {
 
 ::-webkit-scrollbar-track {
   background-color: rgb(238, 238, 238);
-  border-radius: 25px;
+  border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: rgb(185, 185, 185);
+  background-color: #d9b310;
   border-radius: 25px;
 }
 
@@ -189,10 +190,12 @@ nav > ul {
 .card-titles {
   color: #328cc1;
   font-weight: 900;
+  font-size: 18px;
 }
 
 .card-descs {
   font-weight: 200;
+  font-size: 15px;
 }
 
 .card > img {
@@ -299,4 +302,62 @@ nav > ul {
 .up-button > img {
   width: 30px;
   height: 30px;
+}
+
+/* Phone nav */
+.phone-nav {
+  display: none;
+}
+
+.show-nav {
+  display: block;
+}
+
+.hide-nav {
+  display: none;
+}
+
+.menu {
+  padding: 10px 12px 8px 12px;
+  background: none;
+  margin: 15px 15px 10px 0;
+}
+
+.menu > img {
+  width: 25px;
+  height: 25px;
+}
+
+/* Responsive Code */
+@media screen and (max-width: 768px) {
+  .content {
+    margin: 10px 20px;
+  }
+  .works-cards {
+    display: block;
+  }
+  .card {
+    width: 100%;
+    padding: 0 0 10px 0;
+    margin-right: 0;
+  }
+  .card {
+    width: 100%;
+    padding: 0 0 10px 0;
+  }
+  .about-me {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 615px) {
+  nav > ul {
+    display: none;
+  }
+  .phone-nav {
+    display: block;
+  }
+  .menu {
+    display: block;
+  }
 }
