@@ -328,6 +328,47 @@ nav > ul {
   height: 25px;
 }
 
+/* Contact */
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-content {
+  display: flex;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-size: 19px;
+  width: 50%;
+}
+
+.contact-content > div {
+  margin-right: 20px;
+  text-align: right;
+}
+
+.contact-content > img {
+  width: 130px;
+  height: 130px;
+}
+
+.discord {
+  background-color: royalblue;
+}
+
+.github-contact {
+  background-color: black;
+  color: rgb(185, 185, 185);
+}
+
+.gmail {
+  background-color: rgb(255, 34, 34);
+  color: rgb(238, 238, 238);
+}
+
 /* Responsive Code */
 @media screen and (max-width: 768px) {
   .content {
@@ -347,6 +388,9 @@ nav > ul {
   }
   .about-me {
     width: 95%;
+  }
+  .contact-content {
+    width: 100%;
   }
 }
 
