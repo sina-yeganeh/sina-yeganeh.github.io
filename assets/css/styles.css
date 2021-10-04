@@ -369,6 +369,18 @@ nav > ul {
   color: rgb(238, 238, 238);
 }
 
+.notif {
+  position: fixed;
+  width: 100%;
+  background-color: rgb(15, 15, 15);
+  color: rgb(238, 238, 238);
+  padding: 10px;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  transition: 0.5s;
+}
+
 /* Responsive Code */
 @media screen and (max-width: 768px) {
   .content {
