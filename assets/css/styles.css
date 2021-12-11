@@ -2,20 +2,6 @@
   font-family: datcub;
   src: url("../fonts/datcub-font/DatcubBold-4BMy6.ttf");
 }
-@font-face {
-  font-family: boy;
-  src: url("../fonts/elf-boy-classic-font/Elfboyclassic-PKZgZ.ttf");
-}
-
-@font-face {
-  font-family: bg;
-  src: url("../fonts/BG/BrandonGrotesque-Medium.woff2");
-}
-
-@font-face {
-  font-family: bg-black;
-  src: url("../fonts/BG/BrandonGrotesque-Bold.woff2");
-}
 
 body {
   font-family: datcub;
