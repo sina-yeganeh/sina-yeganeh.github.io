@@ -1,0 +1,136 @@
+@font-face {
+  font-family: josefin;
+  src: url("../fonts/Cera-Pro-Regular.woff2");
+}
+
+@font-face {
+  font-family: gentona;
+  src: url("../fonts/Rene\ Bieder\ -\ Gentona\ ExtraBold\ DEMO.otf");
+}
+
+@font-face {
+  font-family: aq;
+  src: url("../fonts/Aquatico-Regular.otf");
+}
+
+body {
+  font-family: josefin;
+  background-color: rgb(253, 253, 253);
+  margin: none;
+  padding: none;
+}
+
+button {
+  font-family: josefin;
+  border-radius: 3px;
+  padding: 10px 25px;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+svg {
+  width: 25px;
+  height: inherit;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -8px;
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul li .title {
+  font-size: 25px;
+  font-family: gentona;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+nav ul li a svg {
+  position: absolute;
+  width: 25px;
+  height: inherit;
+  right: 40px;
+  top: 18px;
+}
+
+.menu {
+  display: none;
+}
+
+/* Content */
+.top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.top .title {
+  font-weight: 900;
+  font-size: 38px;
+  font-family: aq;
+  /* font-weight: 900; */
+}
+
+.top p {
+  opacity: 0.8;
+  margin-top: -15px;
+}
+
+.blue {
+  color: #4ac7e2;
+}
+
+.lets-chat {
+  margin-top: 20px;
+  font-family: gentona;
+  background-color: #9e15bf;
+  padding: 18px 60px;
+  color: white;
+  transition: 0.5s;
+}
+
+.lets-chat:hover {
+  background-color: #c01de9;
+  box-shadow: #c01de9 1px 1px 10px;
+}
+
+.lets-chat svg {
+  margin-bottom: -8px;
+  margin-right: 5px;
+  width: 22px;
+}
+
+.scroll {
+  margin-top: 70px;
+  opacity: 0.6;
+}
+
+.scroll p {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  margin-left: 4px;
+}
+
+.mouse {
+  width: 28px;
+  margin-top: 5px;
+}
