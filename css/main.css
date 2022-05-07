@@ -1,0 +1,57 @@
+@import url("./status-bar.css");
+
+@font-face {
+  font-family: "hack";
+  src: url("../ast/fonts/Hack-Regular.ttf");
+}
+
+body {
+  font-family: "hack";
+  font-size: 18px;
+  background-color: black;
+  color: white;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+#content {
+  display: flex;
+  width: 100%;
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  margin-top: 120px;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+
+#banner {
+  text-align: left;
+}
+
+.left-part {
+  margin-right: 2px;
+  color: rgb(32, 32, 255);
+}
+
+#version {
+  color: cyan;
+}
+
+.ability {
+  margin-top: -10px;
+  color: gray;
+  opacity: 1;
+}
+
+.commands {
+  color: cyan;
+}
+
+.read-more {
+  margin-top: -10px;
+}

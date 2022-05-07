@@ -1,0 +1,27 @@
+#status-bar {
+  position: fixed;
+  display: flex;
+  left: 0;
+  bottom: 0;
+  background-color: rgb(41, 41, 41);
+  width: 100%;
+}
+
+#status-bar > .sub {
+  display: flex;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+.sub > p {
+  margin: 0 30px;
+}
+
+.command-input {
+  border: none;
+  background-color: rgb(41, 41, 41);
+  font-family: "hack";
+  color: white;
+  font-size: 18px;
+}
