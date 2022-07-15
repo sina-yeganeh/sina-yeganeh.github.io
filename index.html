@@ -1,48 +1,210 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SVIM: Sina Vim</title>
 
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/style.min.css">
+
+    <link rel="icon" href="./favicon.ico">
+
+    <title>Sina Yeganeh</title>
   </head>
   <body>
-    <div id="content">
-      <div class="left-part">
-        <p>
-          ~<br>~<br>~<br>~<br>~<br>~<br>
-          ~<br>~<br>~<br>~<br>~<br>~<br>
-          ~<br>~<br>~<br>~<br>~<br>~<br>
-          ~<br>~<br>~<br>~<br>~<br>~<br>
-          ~<br>~<br>~<br>~<br>~<br>~<br>
-          ~<br>~<br>~<br>~<br>~<br>~<br>
-          ~<br>~<br>~<br>~<br>~<br>~<br>
-        </p>
-      </div>
-      <div class="texts">
-        <p id="banner">
-     &nbsp;___ ___ _&nbsp;&nbsp;_   &nbsp;&nbsp;_  <br>  
-          / __|_ _| \| | /_\   <br>
-          \__ \| || .` |/ _ \  <br>
-          |___/___|_|\_/_/ \_\ <span id="version">V5.2</span><br>
-                              
-        </p>
-        <p class="ability">student * programmer * web developer</p>
-        <p>welcome to my personal website! enjoy reading<br>about me and use vim command to browse</p>
-        <p>type <span class="commands">:help</span> to see commands</p>
-        <p class="read-more">type <span class="commands">:about</span> to read more about me right now</p>
-      </div>
-    </div>
     
-
-    <div id="status-bar">
-      <input type="text" class="command-input">
-      <div class="sub">
-        <p class="page">about</p>
-        <p class="status">NORMAL</p>
+    <div class="container">
+      <nav>
+        <ul>
+          <li><a href="#" class="title">Sina Yeganeh</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Skills</a></li>
+          <li><a href="#">Project</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="content">
+        <div class="top">
+          <h1>HI! IM SINA, WELCOME!</h1>
+          <p style="margin-top: -15px; margin-bottom: 30px;">Student * Junior full-stack web developer * Love book</p>
+          <div style="display: flex;">
+            <a href="#"><button type="button">More</button></a>
+            <a href="https://github.com/sina-yeganeh/" style="margin-left: 10px;"><button type="button">Github</button></a>
+          </div>
+        </div>
+        <hr>
+        <div class="about part">
+          <h2 class="title">ABOUT</h2>
+          <p>
+            Well, It seem you want to know about me. OK, 
+            I started to code in 2019 like a dog noob. 
+            I was learning <a href="https://www.python.org/">Python</a> from a booklet which was for one of my elder 
+            brother's teacher and yeah that was really a ****.
+          </p>
+          <p>
+            After one summer (3 months) I finished <a href="https://www.python.org/">Python</a> and 
+            I thought I was a God in that, but nah, I still like a noob (jk). 
+            After this experience I understood my way and now I'm <a href="https://github.com/sina-yeganeh">here</a> ;)
+          </p>
+          <p>
+            Sorry for this ********. Well, I'm from <a href="https://en.wikipedia.org/wiki/Iran">Iran</a> and I'm living here, I love my country. I'm just a 16 Y/O kid which have a little of beard like a teenager. 
+            I love to code, and read book especially in <a href="https://en.wikipedia.org/wiki/Science_fiction">science-fiction</a> genre.
+          </p>
+          <p>I'm not a stupid btw.</p>
+          <p class="note">NOTE: Some of the things which is about Iran are wrong in wikipedia, do not believe anything which is in wikipedia.</p>
+          <div style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
+            <img src="./image/me-pixelize.jpg" alt="My Image" class="me">
+            <p class="image-desc">ME WHEN I WAS IN PIXEL WORLD</p>
+          </div>
+        </div>
+        <hr>
+        <div class="skills part">
+          <h2 class="title">SKILLS</h2>
+          <table>
+            <tr>
+              <th>Col</th>
+              <th>Pro</th>
+              <th>Lang</th>
+              <th>Year</th>
+            </tr>
+            <tr class="active">
+              <th>1</th>
+              <th></th>
+              <th>Node.js</th>
+              <th>1-year</th>
+            </tr>
+            <tr class="active">
+              <th>2</th>
+              <th><img src="./image/icons/shield-96.png" alt="Shield" class="shield"></th>
+              <th>Python</th>
+              <th>3-year</th>
+            </tr>
+            <tr>
+              <th>3</th>
+              <th></th>
+              <th>Go</th>
+              <th>1-year</th>
+            </tr>
+            <tr>
+              <th>4</th>
+              <th><img src="./image/icons/shield-96.png" alt="Shield" class="shield"></th>
+              <th>HTML</th>
+              <th>2-year</th>
+            </tr>
+            <tr>
+              <th>5</th>
+              <th><img src="./image/icons/shield-96.png" alt="Shield" class="shield"></th>
+              <th>CSS</th>
+              <th>2-year</th>
+            </tr>
+            <tr>
+              <th>6</th>
+              <th></th>
+              <th>SQL</th>
+              <th>1-year</th>
+            </tr>
+          </table>
+        </div>
+        <hr>
+        <div class="project part">
+          <h2 class="title">PROJECTS</h2>
+          <div class="part sub-project">
+            <div>
+              <p class="project-title">sina-yeganeh.github.io</p>
+              <div>
+                <p>9</p>
+                <img src="./image/icons/star-96.png" alt="Star" class="star">
+              </div>
+            </div>
+            <div>
+              <p class="desc">My personal website which you are looking to it right now</p>
+              <a href="https://github.com/sina-yeganeh/sina-yeganeh.github.io"><button type="button">visit</button></a>
+            </div>
+          </div>
+          <div class="part sub-project">
+            <div>
+              <p class="project-title">btc-terminal-tracker</p>
+              <div>
+                <p>9</p>
+                <img src="./image/icons/star-96.png" alt="Star" class="star">
+              </div>
+            </div>
+            <div>
+              <p class="desc">Simple and CLI base btc tracker made by Node.js</p>
+              <a href="https://github.com/sina-yeganeh/btc-terminal-tracker"><button type="button">visit</button></a>
+            </div>
+          </div>
+          <div class="part sub-project">
+            <div>
+              <p class="project-title">nodejs-hackernews-clone</p>
+              <div>
+                <p>6</p>
+                <img src="./image/icons/star-96.png" alt="Star" class="star">
+              </div>
+            </div>
+            <div>
+              <p class="desc">A old project for improving express experience</p>
+              <a href="https://github.com/sina-yeganeh/nodejs-hackernews-clone"><button type="button">visit</button></a>
+            </div>
+          </div>
+          <div class="part sub-project">
+            <div>
+              <p class="project-title">notepad-clone</p>
+              <div>
+                <p>6</p>
+                <img src="./image/icons/star-96.png" alt="Star" class="star">
+              </div>
+            </div>
+            <div>
+              <p class="desc">Really simple notepad like editor with Electron.js</p>
+              <a href="https://github.com/sina-yeganeh/notepad-clone"><button type="button">visit</button></a>
+            </div>
+          </div>
+          <div class="part sub-project">
+            <div>
+              <p class="project-title">salamt</p>
+              <div>
+                <p>-</p>
+                <img src="./image/icons/star-96.png" alt="Star" class="star">
+              </div>
+            </div>
+            <div>
+              <p class="desc">My project for Kharazmi festival</p>
+              <a href="#"><button type="button" class="not-active">visit</button></a>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="Contact part">
+          <h2 class="title">CONTACT</h2>
+          <div class="sub-contact">
+            <img src="./image/icons/discord-48.png" alt="Discord">
+            <p>Discord</p>
+            <button type="button">Sina#5328</button>
+          </div>
+          <div class="sub-contact">
+            <img src="./image/icons/mail-48.png" alt="Mail">
+            <p>Gmail</p>
+            <button type="button">sinayeganeh.dev@gmail.com</button>
+          </div>
+          <div class="sub-contact">
+            <img src="./image/icons/github.png" alt="Github">
+            <p>Github</p>
+            <button type="button">sina-yeganeh</button>
+          </div>
+          <div class="sub-contact">
+            <img src="./image/icons/instagram-48.png" alt="Instagram">
+            <p>Instagram</p>
+            <button type="button">sina-yeg</button>
+          </div>
+          <p style="margin-top: 10px; opacity: 0.8; color: #968631;">*Click to button to copy</p>
+        </div>
+        <div class="copyright part">
+          <p>Made with <img src="./image/icons/love-48.png" alt="Love" style="margin-bottom: -5px; width: 25px;"> for myself :3</p>
+        </div>
       </div>
     </div>
+
   </body>
 </html>
