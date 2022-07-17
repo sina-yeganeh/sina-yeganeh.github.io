@@ -35,6 +35,10 @@ body {
   padding: 20px 0;
 }
 
+p {
+  opacity: 0.9;
+}
+
 button {
   border: none;
   text-align: left;
@@ -55,7 +59,7 @@ button:hover {
 
 .container {
   background-color: #4c5945;
-  width: 60%;
+  width: 750px;
   box-shadow: #4c5945 1px 1px 10px;
   border: #252921 2px solid;
 }
@@ -236,4 +240,51 @@ table {
 .copyright {
   text-align: center;
   margin-top: 10px;
+}
+
+.skill-desc {
+  font-weight: 900;
+  text-decoration: cadetblue;
+  opacity: 0.7;
+}
+
+.skill-percent {
+  background-color: #4c5945;
+}
+
+.skill-percent > div {
+  display: flex;
+}
+
+.block {
+  background-color: #968631;
+  box-shadow: #83742b -1px -1px;
+  border: #8a7a2c 1px solid;
+  width: 12px;
+  height: 25px;
+  margin: 0 3px;
+}
+
+.col {
+  display: flex;
+  width: 100%;
+}
+
+.percent-number {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.skill-percent {
+  width: 100%;
+  margin: 5px;
+}
+
+.skill-percent .part {
+  padding: 5px;
+  border: none;
+}
+
+.percent {
+  background-color: #3e4736;
 }
